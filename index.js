@@ -8,5 +8,5 @@ import cors from "cors";
 config({ path: './config/dev.config.env' })
 
 const app = express()
-app.use(cors({ origin: 'http://localhost:8081' }));
+app.use(cors());
 initiateApp(app, express)
